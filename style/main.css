@@ -390,81 +390,97 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 55px; 
+    color:transparent;
+    
+  }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+   
     background-image:url("http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=4094433");
+    background-repeat:no-repeat;
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
     background-image:url("http://itsmyviews.com/wp-content/uploads/2013/06/latest-cartoon-wallpapers-2013-2014.jpg");
+    background-repeat:no-repeat; 
+    background-size:150%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; 
-    background-image:url("http://vignette2.wikia.nocookie.net/tomandjerry/images/6/65/20140211071529!Tom_Tom_and_Jerry.png/revision/latest?cb=20140529170742");}
+    
+    background-repeat:no-repeat;
+    background-image:url("http://vignette2.wikia.nocookie.net/tomandjerry/images/6/65/20140211071529!Tom_Tom_and_Jerry.png/revision/latest?cb=20140529170742");
+    background-size:65%;
+  }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; 
+   
+    background-repeat:no-repeat;
     background-image:url("https://s-media-cache-ak0.pinimg.com/736x/ac/bb/d4/acbbd49b22b8c556979418f6618a35fd.jpg");
+    background-size:100%;
   }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; 
+    
+    background-repeat:no-repeat; 
     background-image:url("http://www.mascotdesign.com/_dev/images/famous-cartoon-character-mickey-mouse.png");
+    background-size:100%;
     
   }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; 
-    background-image:url("http://ecx.images-amazon.com/images/I/41433QE0-DL._SY355_.jpg;")}
+    
+    background-repeat:no-repeat;
+    background-image:url("http://ecx.images-amazon.com/images/I/41433QE0-DL._SY355_.jpg");
+    background-size:100%;
+  }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    
+    background-repeat:no-repeat;
     background-image:url("https://s-media-cache-ak0.pinimg.com/originals/b5/61/c5/b561c57be8eed7c180c980ee115c99e0.gif");
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+   
+    background-repeat:no-repeat;
     background-image:url("http://4.bp.blogspot.com/-NDVjJeg01NQ/Ul-m1mZcE5I/AAAAAAAAWeQ/wuEWC7ADV7o/s1600/aladdin7.gif");
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
+    background-repeat:no-repeat;
     background-image:url("http://babytalkbungalow.com/images/2011/08/olive-oyl-feet.jpg");
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
+    
+    background-repeat:no-repeat;
     background-image:url("http://www.mascotdesign.com/_dev/images/famous-cartoon-character-popeye.jpg");
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
+    
+    background-repeat:no-repeat;
     background-image:url("http://pandaland.kz/assets/user_images/Disney_baby_plate.jpg");
+    background-size:100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+   
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
